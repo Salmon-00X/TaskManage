@@ -1,0 +1,93 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f7;
+    color: #2c3e50;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 2.5em;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+button, .btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #3498db;
+}
+
+button:hover, .btn:hover {
+    background-color: #2980b9;
+}
+
+/* Input Fields */
+input, textarea, select {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    width: 60%;
+    max-width: 400px;
+}
+
+/* Textarea Size */
+textarea {
+    width: 80%;
+    height: 100px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Task and Note Item Styling */
+li {
+    background: #ecf0f1;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #bdc3c7;
+    cursor: pointer;
+    position: relative;
+}
+
+li p {
+    margin: 5px 0;
+}
+
+/* Highlight Style */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Search Container */
+.search-container {
+    margin: 20px;
+}
+
+/* Link Styling */
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
